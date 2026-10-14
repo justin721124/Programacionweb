@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabajo2</title>
+    
+
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="formulario.html" aria  >formulario </a>
+    </nav>
+    <main>
+        <h1>Presentacion</h1>
+        <div class="ficha">
+            <p><strong>Nombre Completo: </strong> Justin Junior Santana James</p>
+            <p><strong>Matricula: </strong> LR-2025-03061</p>
+            <p><strong>Asignatura:</strong> Programacion web</p>
+            <p><strong>Docente:</strong> Jaime Vilorio Green</p>
+        </div>
+    </main>
+</body>
+</html>
