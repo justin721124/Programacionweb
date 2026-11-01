@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="encabezado">
+      <h1>Programacion web I</h1>
+      <p class="subtitulo">Justin Santana · LR-2025-03061</p>
+    </header>
+ 
+    <nav>
+      <ul class="menu">
+        <li><a href="#dispositivos">Dispositivos</a></li>
+        <li><a href="#protocolos">Protocolos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Red_de_computadoras" target="_blank">Más información</a></li>
+      </ul>
+    </nav>
+ 
+    <main>
+      <section id="dispositivos" class="tarjeta">
+        <h2>Dispositivos de red</h2>
+        <p>Una red se forma con varios equipos que trabajan juntos para mover la información.</p>
+        <p>Cada dispositivo cumple una función distinta dentro del recorrido de los datos.</p>
+        <p class="destacado">Sin routers y switches, los equipos no podrían comunicarse entre sí.</p>
+        <ul class="lista">
+          <li>Router: conecta redes distintas</li>
+          <li>Switch: reparte los paquetes dentro de la red local</li>
+          <li>Firewall: filtra el tráfico peligroso</li>
+          <li>Servidor: guarda información y responde pedidos</li>
+        </ul>
+      </section>
+ 
+      <section id="protocolos" class="tarjeta">
+        <h2>Protocolos</h2>
+        <p>Los protocolos son las reglas que permiten que los equipos se entiendan.</p>
+        <p>Los más conocidos son IP, TCP, UDP, HTTP y DNS.</p>
+        <p class="destacado">TCP confirma que los paquetes llegaron; UDP es más rápido pero no confirma.</p>
+        <ol class="lista">
+          <li>El usuario hace una solicitud</li>
+          <li>Los datos se dividen en paquetes</li>
+          <li>Los paquetes viajan por routers y switches</li>
+          <li>El servidor responde</li>
+        </ol>
+      </section>
+ 
+      <section id="contacto" class="tarjeta">
+        <h2>Contacto</h2>
+        <p>Escríbeme para resolver dudas sobre el tema.</p>
+        <form action="#" method="post">
+          <input type="text" name="nombre" placeholder="Tu nombre" title="Escribe tu nombre">
+          <input type="email" name="correo" placeholder="Tu correo" title="Escribe tu correo">
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+ 
+    <footer>
+      <p>Actividad de selectores CSS</p>
+    </footer>
+  </body>
+</html>
+ 

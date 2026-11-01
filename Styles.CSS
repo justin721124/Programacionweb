@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #2d405f;
+  background-color: #f2f5f7;
+  line-height: 1.6;
+}
+ 
+a {
+  color: #14a3cb;
+  text-decoration: none;
+}
+ 
+
+h1, h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+}
+ 
+
+#encabezado {
+  background-color: #1ccee2;
+  color: #ffffff;
+  text-align: center;
+  height: 140px;
+  padding: 36px 16px;
+}
+ 
+#encabezado h1 {
+  font-size: 32px;
+}
+ 
+
+.subtitulo {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #ffffff;
+}
+ 
+
+nav a {
+  color: #ffffff;
+  padding: 6px 4px;
+  border-bottom: 2px solid transparent;
+}
+ 
+nav a:hover {
+  border-bottom: 2px solid #7fd1e6;
+}
+ 
+nav {
+  background-color: #19c9e8;
+  padding: 10px 24px;
+}
+ 
+
+nav > ul {
+  list-style: none;
+  text-align: center;
+}
+ 
+ul.menu > li {
+  display: inline-block;
+  margin: 0 12px;
+}
+ 
+main > section {
+  border: 1px solid #19bbe7;
+  border-left: 6px solid #22c7f5;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+ 
+
+main {
+  width: 90%;
+  max-width: 720px;
+  margin: 32px auto;
+}
+ 
+.tarjeta {
+  padding: 20px 24px;
+  margin-bottom: 24px;
+}
+ 
+.tarjeta h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+ 
+
+h2 ~ p {
+  color: #4a5764;
+  margin-bottom: 8px;
+}
+ 
+
+h2 + p {
+  font-size: 18px;
+  color: #1b2430;
+  font-weight: bold;
+}
+ 
+
+p.destacado {
+  background-color: #e3f3f8;
+  border-left: 4px solid #26bee8;
+  padding: 8px 12px;
+  margin: 12px 0;
+}
+ 
+ul.lista, ol.lista {
+  margin-left: 24px;
+}
+ 
+section ul li {
+  margin-bottom: 4px;
+}
+ 
+
+a[target="_blank"] {
+  color: #ff6966;
+  font-weight: bold;
+}
+ 
+input[type="text"],
+input[type="email"] {
+  display: block;
+  width: 100%;
+  height: 38px;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  border: 1px solid #c9d3da;
+  border-radius: 6px;
+  font-size: 16px;
+}
+ 
+[title]:focus {
+  border-color: #ffffff;
+  outline: 2px solid #ffffff;
+}
+ 
+button {
+  padding: 10px 24px;
+  color: #ffffff;
+  background-color: #22bae4;
+  border: 0;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ 
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #1f9be3;
+  padding: 24px;
+}
